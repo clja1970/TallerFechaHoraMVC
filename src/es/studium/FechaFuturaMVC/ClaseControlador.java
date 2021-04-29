@@ -41,6 +41,8 @@ public class ClaseControlador implements ActionListener, WindowListener
 		if(objVista.msnError.isActive())
 		{
 			objVista.msnError.setVisible(false);
+			objVista.txtFecha.setText("");
+			
 		}
 		else
 		{

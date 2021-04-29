@@ -10,5 +10,4 @@ public class ClasePrincipal
 		/* Instanciamos un objeto de la clase Controlador */
 		new ClaseControlador(Vista, Modelo); 
 	}
-
 }

@@ -12,7 +12,7 @@ import javax.swing.JButton;
 public class ClaseVista
 {
 	Frame ventana = new Frame();
-	Label lblFechaFutura = new Label(" Dame una fecha futura");
+	Label lblFechaFutura = new Label(" Dame una fecha futura dd/mm/aa");
 	TextField txtFecha = new TextField(11);
 	JButton btnCalculo = new JButton("Calculo");
 	TextField txtFechaCalculada= new TextField (30);
