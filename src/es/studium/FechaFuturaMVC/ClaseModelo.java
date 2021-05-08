@@ -25,7 +25,7 @@ public class ClaseModelo
 			LocalDate fechaFut = LocalDate.parse(fechaFutura, fmt);
 			LocalDate esteInstante = LocalDate.now();
 			Period periodo = Period.between(esteInstante,fechaFut);
-			objVista.txtFechaCalculada.setText(String.format("Quedan: %s días, %s meses, %s años para el: "+fechaFutura,
+			objVista.txtFechaCalculada.setText(String.format(" Quedan: %s días, %s meses, %s años"+"\npara el: "+fechaFutura,
 					periodo.getDays(),periodo.getMonths(),periodo.getYears()));
 		}
 	}
